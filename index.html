@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar – kurser og signaler</title>
+<meta name="description" content="Glenns overvåking av krypto, aksjer og fond knyttet til Teknologiradaren. Regelbaserte signaler, ingen råd.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='none' stroke='%231F4E79' stroke-width='8'/><circle cx='50' cy='50' r='8' fill='%231F4E79'/></svg>">
+<style>
+:root{
+  --flate:#FAFAF8;--kort:#FFFFFF;--tekst:#1A1A1A;--dempet:#5A5A5A;--aksent:#1F4E79;
+  --varsel:#B4451F;--ok:#2E6B4F;--kant:#E3E1DC;--obs:#8A6D1F;--obs-bg:#FBF4E0;--varsel-bg:#FBE9E2;--ok-bg:#E6F1EB;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --flate:#121414;--kort:#1C1F1F;--tekst:#EDECE8;--dempet:#A8A7A2;--aksent:#7FB1E0;
+    --varsel:#E8886A;--ok:#7CC19E;--kant:#2E3232;--obs:#E2C067;--obs-bg:#2A2510;--varsel-bg:#30201A;--ok-bg:#16291F;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--flate);color:var(--tekst);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:24px 16px 8px;max-width:1100px;margin:0 auto}
+h1{font-size:26px;margin:0 0 4px;font-family:Georgia,"Times New Roman",serif}
+h2{font-size:20px;margin:32px 0 12px;font-family:Georgia,serif}
+.meta{color:var(--dempet);font-size:14px}
+main{max-width:1100px;margin:0 auto;padding:0 16px 48px}
+.kort{background:var(--kort);border:1px solid var(--kant);border-radius:12px;padding:16px;margin-bottom:12px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.tabs button{min-height:44px;padding:8px 16px;border-radius:999px;border:1px solid var(--kant);background:var(--kort);color:var(--tekst);font-size:16px;cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--aksent);color:#fff;border-color:var(--aksent)}
+.rad{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:12px 0;border-top:1px solid var(--kant);cursor:pointer}
+.rad:first-child{border-top:none}
+.rad .navn{font-weight:600}
+.rad .sym{color:var(--dempet);font-size:14px;margin-left:6px}
+.rad .kurs{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.rad .nok{text-align:right;color:var(--dempet);font-size:14px;font-variant-numeric:tabular-nums}
+.pct{font-variant-numeric:tabular-nums;font-size:14px}
+.opp{color:var(--ok)}.ned{color:var(--varsel)}
+.merke{display:inline-block;font-size:14px;padding:2px 8px;border-radius:6px;margin:4px 4px 0 0;border:1px solid transparent}
+.viktig{background:var(--varsel-bg);color:var(--varsel)}.obs{background:var(--obs-bg);color:var(--obs)}.info{background:var(--ok-bg);color:var(--ok)}
+.eier{font-size:12px;color:var(--aksent);border:1px solid var(--aksent);border-radius:4px;padding:0 4px;margin-left:6px;vertical-align:middle}
+.tom,.feil,.laster{padding:24px;text-align:center;color:var(--dempet)}
+.feil{color:var(--varsel)}
+details{margin-top:8px}
+summary{cursor:pointer;color:var(--aksent);min-height:44px;display:flex;align-items:center}
+.detalj{grid-column:1/-1;display:none;padding-top:8px}
+.rad.open .detalj{display:block}
+svg.spark{width:100%;height:120px;display:block;margin:8px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{text-align:left;padding:6px 8px;border-bottom:1px solid var(--kant)}
+th{color:var(--dempet);font-weight:500}
+td.tall{text-align:right;font-variant-numeric:tabular-nums}
+footer{max-width:1100px;margin:0 auto;padding:16px;color:var(--dempet);font-size:14px;border-top:1px solid var(--kant)}
+a{color:var(--aksent)}
+@media (min-width:720px){.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Radar</h1>
+  <div class="meta" id="meta">Laster kurser …</div>
+</header>
+<main>
+  <section id="signaler" class="kort" aria-live="polite">
+    <div class="laster">Laster …</div>
+  </section>
+
+  <div class="tabs" role="group" aria-label="Filter">
+    <button data-f="alle" aria-pressed="true">Alle</button>
+    <button data-f="eier">Mine</button>
+    <button data-f="crypto">Krypto</button>
+    <button data-f="aksje">Aksjer</button>
+    <button data-f="fond">Fond</button>
+  </div>
+
+  <section id="liste" class="kort"><div class="laster">Laster …</div></section>
+
+  <h2>Slik leses signalene</h2>
+  <div class="kort">
+    <table>
+      <tr><th>Kode</th><th>Betyr</th><th>Nivå</th></tr>
+      <tr><td>DØGN</td><td>Kursen har beveget seg mer enn terskelen siste døgn (standard 5 %)</td><td>Viktig</td></tr>
+      <tr><td>KRYSS</td><td>50-dagers snitt har krysset 200-dagers snitt (gyllent kryss / dødskryss)</td><td>Viktig</td></tr>
+      <tr><td>VOLUM</td><td>Omsetning over 2× 30-dagers snitt – noen handler mer enn vanlig</td><td>Obs</td></tr>
+      <tr><td>RSI</td><td>RSI(14) under 30 (oversolgt) eller over 70 (overkjøpt)</td><td>Obs</td></tr>
+      <tr><td>TOPP / BUNN</td><td>Ny 30-dagers topp eller bunn</td><td>Info</td></tr>
+    </table>
+    <p class="meta" style="margin:12px 0 0">Viktig og Obs sendes på e-post, maks én gang per time og ikke på nytt før signalet har vært borte i 24 timer. Info vises bare her. Terskler endres i <code>data/instrumenter.json</code>.</p>
+  </div>
+</main>
+<footer>
+  Kilder: CoinGecko (krypto), Yahoo Finance (aksjer, 15 min forsinket; fond-NAV daglig). Regelbaserte observasjoner, ikke finansiell rådgivning. Ukens nyhetsbilde kommer i Teknologiradaren på e-post fredager.
+</footer>
+
+<script>
+const fmtTid = s => new Date(s).toLocaleString('nb-NO',{dateStyle:'short',timeStyle:'short'});
+const fmtK = (v,c) => v==null ? '–' : (v<10 ? v.toLocaleString('nb-NO',{maximumFractionDigits:4}) : v.toLocaleString('nb-NO',{maximumFractionDigits:2}))+(c?' '+c:'');
+const pct = v => v==null ? '' : `<span class="pct ${v>=0?'opp':'ned'}">${v>=0?'+':''}${v.toFixed(1)} %</span>`;
+let data, filter='alle';
+
+function spark(rader){
+  if(!rader||rader.length<2) return '';
+  const n=Math.min(rader.length,120), s=rader.slice(-n), ys=s.map(r=>r[1]);
+  const mn=Math.min(...ys), mx=Math.max(...ys), w=600,h=120,p=6;
+  const x=i=>p+i*(w-2*p)/(n-1), y=v=>h-p-(mx===mn?0:(v-mn)/(mx-mn))*(h-2*p);
+  const d=ys.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
+  const opp=ys[ys.length-1]>=ys[0];
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" role="img" aria-label="Kursutvikling siste ${n} dager"><path d="${d}" fill="none" stroke="${opp?'var(--ok)':'var(--varsel)'}" stroke-width="2"/><text x="${p}" y="${h-p}" font-size="12" fill="var(--dempet)">${s[0][0]}</text><text x="${w-p}" y="${h-p}" font-size="12" fill="var(--dempet)" text-anchor="end">${s[n-1][0]}</text></svg>`;
+}
+
+function render(){
+  const el=document.getElementById('liste');
+  const rader=data.instrumenter.filter(r=>filter==='alle'||(filter==='eier'?r.eier:r.type===filter));
+  if(!rader.length){el.innerHTML='<div class="tom">Ingen instrumenter i dette filteret. Legg til i data/instrumenter.json.</div>';return;}
+  el.innerHTML=rader.map(r=>`
+    <div class="rad" data-id="${r.id}" tabindex="0" role="button" aria-expanded="false">
+      <div><span class="navn">${r.navn}</span><span class="sym">${r.symbol}</span>${r.eier?'<span class="eier">eier</span>':''}
+        <div class="meta">${r.tema}${r.merknad?' · '+r.merknad:''}</div>
+        <div>${(r.signaler||[]).map(s=>`<span class="merke ${s.nivaa}">${s.tekst}</span>`).join('')}</div>
+        ${r.feil?`<div class="feil" style="text-align:left;padding:4px 0">Kunne ikke hente data: ${r.feil}</div>`:''}
+      </div>
+      <div><div class="kurs">${fmtK(r.kurs,r.valuta)}</div>
+        <div class="nok">${r.valuta!=='NOK'&&r.kurs_nok?fmtK(r.kurs_nok,'NOK'):''}</div>
+        <div style="text-align:right">${pct(r.dogn_pct)}</div></div>
+      <div class="detalj">
+        <table><tr><th>Døgn</th><th>Uke</th><th>Måned</th><th>RSI(14)</th><th>Oppdatert</th></tr>
+        <tr><td>${pct(r.dogn_pct)||'–'}</td><td>${pct(r.uke_pct)||'–'}</td><td>${pct(r.mnd_pct)||'–'}</td><td>${r.rsi??'–'}</td><td>${r.tid?fmtTid(r.tid*1000):'–'}</td></tr></table>
+        <div class="sp" data-id="${r.id}"></div>
+      </div>
+    </div>`).join('');
+  el.querySelectorAll('.rad').forEach(rad=>{
+    const toggle=async()=>{
+      const open=rad.classList.toggle('open'); rad.setAttribute('aria-expanded',open);
+      const sp=rad.querySelector('.sp');
+      if(open&&!sp.innerHTML){
+        try{const h=await (await fetch(`data/historikk/${rad.dataset.id.replace('/','_')}.json?t=${Date.now()}`)).json(); sp.innerHTML=spark(h);}
+        catch{sp.innerHTML='<div class="meta">Ingen historikk tilgjengelig ennå.</div>';}
+      }};
+    rad.addEventListener('click',toggle);
+    rad.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle();}});
+  });
+}
+
+function renderSignaler(){
+  const el=document.getElementById('signaler');
+  const alle=[];
+  data.instrumenter.forEach(r=>(r.signaler||[]).forEach(s=>alle.push({r,s})));
+  const orden={viktig:0,obs:1,info:2};
+  alle.sort((a,b)=>orden[a.s.nivaa]-orden[b.s.nivaa]);
+  if(!alle.length){el.innerHTML='<div class="tom">Ingen aktive signaler akkurat nå. Rolig marked innenfor dine terskler.</div>';return;}
+  el.innerHTML=`<h2 style="margin:0 0 8px">Aktive signaler (${alle.length})</h2>`+alle.map(({r,s})=>`<div style="padding:6px 0;border-top:1px solid var(--kant)"><span class="merke ${s.nivaa}">${s.nivaa==='viktig'?'Viktig':s.nivaa==='obs'?'Obs':'Info'}</span> <strong>${r.navn}</strong> <span class="sym">${fmtK(r.kurs,r.valuta)}</span><br><span class="meta">${s.tekst}</span></div>`).join('');
+}
+
+async function last(){
+  try{
+    data=await (await fetch(`data/siste.json?t=${Date.now()}`)).json();
+    document.getElementById('meta').textContent=`Oppdatert ${fmtTid(data.generert)} · ${data.instrumenter.length} instrumenter · USD/NOK ${data.valutakurser?.USD??'–'}`;
+    renderSignaler(); render();
+  }catch(e){
+    document.getElementById('liste').innerHTML='<div class="feil">Fikk ikke lastet data. Sjekk at GitHub Actions har kjørt minst én gang, eller last siden på nytt.</div>';
+    document.getElementById('signaler').innerHTML='';
+  }
+}
+document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.tabs button').forEach(x=>x.setAttribute('aria-pressed','false'));
+  b.setAttribute('aria-pressed','true'); filter=b.dataset.f; render();
+}));
+last(); setInterval(last, 5*60*1000);
+</script>
+</body>
+</html>

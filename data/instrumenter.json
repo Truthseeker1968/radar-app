@@ -1,0 +1,35 @@
+{
+  "_kommentar": "Overvåkingsliste. Rediger fritt. type: crypto (CoinGecko-id) | aksje (Yahoo-ticker) | fond (Yahoo-ticker for NAV, oppdateres daglig). tema peker til Teknologiradarens punkter.",
+  "instrumenter": [
+    {"id": "ripple",   "navn": "XRP",      "symbol": "XRP",  "type": "crypto", "tema": "Kvantesikker krypto", "eier": true,  "merknad": "XRPL: mål om kvanteresistens 2028"},
+    {"id": "stellar",  "navn": "Stellar",  "symbol": "XLM",  "type": "crypto", "tema": "Kvantesikker krypto", "eier": true,  "merknad": "Ed25519, ingen PQ-plan publisert"},
+    {"id": "algorand", "navn": "Algorand", "symbol": "ALGO", "type": "crypto", "tema": "Kvantesikker krypto", "eier": true,  "merknad": "Falcon i state proofs, ikke i lommebøker"},
+    {"id": "bitcoin",  "navn": "Bitcoin",  "symbol": "BTC",  "type": "crypto", "tema": "Referanse",           "eier": false, "merknad": "Markedsreferanse, BIP-360"},
+    {"id": "quantum-resistant-ledger", "navn": "QRL", "symbol": "QRL", "type": "crypto", "tema": "Kvantesikker krypto", "eier": false, "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs"},
+
+    {"id": "GEV",     "navn": "GE Vernova",   "symbol": "GEV",    "type": "aksje", "tema": "SMR",         "eier": false, "merknad": "BWRX-300, første amerikanske SMR-byggetillatelse"},
+    {"id": "OKLO",    "navn": "Oklo",         "symbol": "OKLO",   "type": "aksje", "tema": "SMR",         "eier": false, "merknad": "Høy volatilitet, utvanning"},
+    {"id": "IONQ",    "navn": "IonQ",         "symbol": "IONQ",   "type": "aksje", "tema": "Kvante",      "eier": false, "merknad": ""},
+    {"id": "IBM",     "navn": "IBM",          "symbol": "IBM",    "type": "aksje", "tema": "Kvante",      "eier": false, "merknad": ""},
+    {"id": "GOOGL",   "navn": "Alphabet",     "symbol": "GOOGL",  "type": "aksje", "tema": "KI / Fusjon", "eier": false, "merknad": "Gemini, Proxima-investor"},
+    {"id": "DJT",     "navn": "Trump Media",  "symbol": "DJT",    "type": "aksje", "tema": "Fusjon",      "eier": false, "merknad": "TAE-fusjon (S-4 30.09)"},
+    {"id": "RWE.DE",  "navn": "RWE",          "symbol": "RWE.DE", "type": "aksje", "tema": "Fusjon",      "eier": false, "merknad": "Proxima-investor"},
+    {"id": "5803.T",  "navn": "Fujikura",     "symbol": "5803.T", "type": "aksje", "tema": "Supraledning","eier": false, "merknad": "HTS-tape til CFS"},
+    {"id": "3696.HK", "navn": "Insilico",     "symbol": "3696.HK","type": "aksje", "tema": "KI-medisin",  "eier": false, "merknad": "Rentosertib fase III"},
+    {"id": "EQNR.OL", "navn": "Equinor",      "symbol": "EQNR.OL","type": "aksje", "tema": "Oslo Børs",   "eier": false, "merknad": ""},
+    {"id": "DNB.OL",  "navn": "DNB",          "symbol": "DNB.OL", "type": "aksje", "tema": "Oslo Børs",   "eier": false, "merknad": ""},
+    {"id": "NEL.OL",  "navn": "Nel",          "symbol": "NEL.OL", "type": "aksje", "tema": "Oslo Børs",   "eier": false, "merknad": ""},
+
+    {"id": "0P0001IT1G.IR", "navn": "DNB Disruptive Opportunities N", "symbol": "DNB-DISR", "type": "fond", "tema": "Fond", "eier": true, "merknad": "Pensjon ASK. NAV daglig. Bytt ticker hvis Yahoo mangler data."}
+  ],
+  "regler": {
+    "dogn_pct": 5,
+    "volum_x_snitt30": 2.0,
+    "rsi_lav": 30,
+    "rsi_hoy": 70,
+    "sma_kort": 50,
+    "sma_lang": 200,
+    "nyhoy_lav_dager": 30,
+    "maks_varsler_per_time": 1
+  }
+}
