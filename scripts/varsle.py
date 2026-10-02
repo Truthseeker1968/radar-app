@@ -28,7 +28,8 @@ for r in siste["instrumenter"]:
         sist = hist["signaler"].get(n)
         if sist is None or (NAA - dt.datetime.fromisoformat(sist)).total_seconds() > 24 * 3600:
             nye.append((r, s))
-        hist["signaler"][n] = NAA.isoformat(timespec="seconds")
+        else:
+            hist["signaler"][n] = sist  # behold første observasjon
 
 # glem signaler som ikke lenger er aktive og er eldre enn 24 t
 for n, t in list(hist["signaler"].items()):
@@ -50,7 +51,9 @@ else:
     bruker, pw, til = os.environ.get("GMAIL_USER"), os.environ.get("GMAIL_APP_PASSWORD"), os.environ.get("VARSEL_TIL")
     if not (bruker and pw and til):
         print("Mangler GMAIL_USER / GMAIL_APP_PASSWORD / VARSEL_TIL – hopper over sending.", file=sys.stderr)
+        sendt_ok = False
     else:
+        sendt_ok = True
         linjer = []
         for r, s in nye:
             kurs = f"{r['kurs']:,} {r['valuta']}".replace(",", " ") if r.get("kurs") else "–"
@@ -69,5 +72,8 @@ else:
             s.send_message(m)
         hist["siste_epost"] = NAA.isoformat(timespec="seconds")
         print(f"Sendte e-post med {len(nye)} signaler til {til}.")
+    if sendt_ok:
+        for r, s in nye:
+            hist["signaler"][f"{r['symbol']}:{s['kode']}"] = NAA.isoformat(timespec="seconds")
 
 SENDT.write_text(json.dumps(hist, indent=1), encoding="utf-8")
