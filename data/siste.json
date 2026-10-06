@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-05T22:12:45+00:00",
+ "generert": "2026-10-06T02:20:22+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -11,10 +11,10 @@
   "maks_varsler_per_time": 1
  },
  "valutakurser": {
-  "USD": 9.5886,
-  "EUR": 10.7604,
+  "USD": 9.5954,
+  "EUR": 10.7616,
   "JPY": 0.0607,
-  "HKD": 1.2173,
+  "HKD": 1.2181,
   "NOK": 1.0
  },
  "instrumenter": [
@@ -26,17 +26,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
-   "kurs": 1.51,
-   "kurs_nok": 14.52,
+   "kurs": 1.5,
+   "kurs_nok": 14.38,
    "valuta": "USD",
-   "dogn_pct": -0.28,
-   "volum24": 2017381092.3346078,
-   "tid": 1791238300,
+   "dogn_pct": -1.76,
+   "volum24": 1809005544.0344965,
+   "tid": 1791253150,
    "signaler": [],
    "feil": null,
-   "uke_pct": 0.95,
-   "mnd_pct": 6.92,
-   "rsi": 46.5
+   "uke_pct": 0.66,
+   "mnd_pct": 5.44,
+   "rsi": 37.2
   },
   {
    "id": "stellar",
@@ -46,17 +46,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.215823,
-   "kurs_nok": 2.07,
+   "kurs": 0.214605,
+   "kurs_nok": 2.06,
    "valuta": "USD",
-   "dogn_pct": -2.83,
-   "volum24": 239547967.58219534,
-   "tid": 1791238300,
+   "dogn_pct": -4.74,
+   "volum24": 214188748.65622994,
+   "tid": 1791253150,
    "signaler": [],
    "feil": null,
-   "uke_pct": -7.05,
-   "mnd_pct": 17.32,
-   "rsi": 50.3
+   "uke_pct": -3.52,
+   "mnd_pct": 14.51,
+   "rsi": 49.3
   },
   {
    "id": "algorand",
@@ -66,17 +66,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.127929,
-   "kurs_nok": 1.23,
+   "kurs": 0.126745,
+   "kurs_nok": 1.22,
    "valuta": "USD",
-   "dogn_pct": -2.71,
-   "volum24": 78437824.45965858,
-   "tid": 1791238300,
+   "dogn_pct": -2.94,
+   "volum24": 76729397.44805838,
+   "tid": 1791253150,
    "signaler": [],
    "feil": null,
-   "uke_pct": -5.91,
-   "mnd_pct": 35.39,
-   "rsi": 61.3
+   "uke_pct": 1.01,
+   "mnd_pct": 31.18,
+   "rsi": 60.7
   },
   {
    "id": "bitcoin",
@@ -86,16 +86,16 @@
    "tema": "Referanse",
    "eier": false,
    "merknad": "Markedsreferanse, BIP-360",
-   "kurs": 85906,
-   "kurs_nok": 823950,
+   "kurs": 85493,
+   "kurs_nok": 820601,
    "valuta": "USD",
-   "dogn_pct": -0.38,
-   "volum24": 32903362917.15453,
-   "tid": 1791238300,
+   "dogn_pct": -1.24,
+   "volum24": 30058086789.13222,
+   "tid": 1791253150,
    "signaler": [],
    "feil": null,
-   "uke_pct": 2.91,
-   "mnd_pct": 7.62,
+   "uke_pct": 2.22,
+   "mnd_pct": 6.43,
    "rsi": 45.8
   },
   {
@@ -106,12 +106,12 @@
    "tema": "Kvantesikker krypto",
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
-   "kurs": 0.821475,
-   "kurs_nok": 7.88,
+   "kurs": 0.822271,
+   "kurs_nok": 7.89,
    "valuta": "USD",
-   "dogn_pct": -1.45,
-   "volum24": 29556.936588215573,
-   "tid": 1791238300,
+   "dogn_pct": -2.35,
+   "volum24": 26581.462869820916,
+   "tid": 1791253150,
    "signaler": [],
    "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
   },
@@ -143,7 +143,7 @@
    "mnd_pct": 5.11,
    "rsi": 86.4,
    "tid": 1791172800,
-   "kurs_nok": 9492.71
+   "kurs_nok": 9499.45
   },
   {
    "id": "OKLO",
@@ -162,7 +162,7 @@
    "mnd_pct": -9.71,
    "rsi": 50.0,
    "tid": 1791172800,
-   "kurs_nok": 344.9
+   "kurs_nok": 345.15
   },
   {
    "id": "IONQ",
@@ -187,7 +187,7 @@
    "mnd_pct": 10.12,
    "rsi": 71.1,
    "tid": 1791172800,
-   "kurs_nok": 412.02
+   "kurs_nok": 412.31
   },
   {
    "id": "IBM",
@@ -212,7 +212,7 @@
    "mnd_pct": -5.59,
    "rsi": 21.0,
    "tid": 1791172800,
-   "kurs_nok": 2124.64
+   "kurs_nok": 2126.15
   },
   {
    "id": "GOOGL",
@@ -231,7 +231,7 @@
    "mnd_pct": 1.17,
    "rsi": 51.3,
    "tid": 1791172800,
-   "kurs_nok": 3322.16
+   "kurs_nok": 3324.52
   },
   {
    "id": "DJT",
@@ -250,7 +250,7 @@
    "mnd_pct": -9.35,
    "rsi": 51.2,
    "tid": 1791172800,
-   "kurs_nok": 82.75
+   "kurs_nok": 82.81
   },
   {
    "id": "RWE.DE",
@@ -269,7 +269,7 @@
    "mnd_pct": 1.07,
    "rsi": 60.1,
    "tid": 1790892000,
-   "kurs_nok": 630.56
+   "kurs_nok": 630.63
   },
   {
    "id": "5803.T",
@@ -279,16 +279,27 @@
    "tema": "Supraledning",
    "eier": false,
    "merknad": "HTS-tape til CFS",
-   "kurs": 5566.0,
+   "kurs": 5724.0,
    "valuta": "JPY",
-   "dogn_pct": -0.57,
-   "signaler": [],
+   "dogn_pct": 2.84,
+   "signaler": [
+    {
+     "kode": "RSI",
+     "nivaa": "obs",
+     "tekst": "RSI(14) 75.2 – overkjøpt-sone"
+    },
+    {
+     "kode": "TOPP",
+     "nivaa": "info",
+     "tekst": "Ny 30-dagers topp"
+    }
+   ],
    "feil": null,
-   "uke_pct": 12.29,
-   "mnd_pct": 5.06,
-   "rsi": 61.6,
-   "tid": 1791126000,
-   "kurs_nok": 337.86
+   "uke_pct": 16.08,
+   "mnd_pct": 12.46,
+   "rsi": 75.2,
+   "tid": 1791212400,
+   "kurs_nok": 347.45
   },
   {
    "id": "3696.HK",
@@ -298,16 +309,16 @@
    "tema": "KI-medisin",
    "eier": false,
    "merknad": "Rentosertib fase III",
-   "kurs": 57.0,
+   "kurs": 59.35,
    "valuta": "HKD",
-   "dogn_pct": -1.04,
+   "dogn_pct": 4.12,
    "signaler": [],
    "feil": null,
-   "uke_pct": 2.43,
-   "mnd_pct": 21.28,
-   "rsi": 57.4,
-   "tid": 1791129600,
-   "kurs_nok": 69.39
+   "uke_pct": 10.32,
+   "mnd_pct": 21.72,
+   "rsi": 62.2,
+   "tid": 1791216000,
+   "kurs_nok": 72.29
   },
   {
    "id": "EQNR.OL",
@@ -387,7 +398,7 @@
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 76.3 – overkjøpt-sone"
+     "tekst": "RSI(14) 75.3 – overkjøpt-sone"
     },
     {
      "kode": "TOPP",
@@ -397,8 +408,8 @@
    ],
    "feil": null,
    "uke_pct": 0.57,
-   "mnd_pct": 8.2,
-   "rsi": 76.3,
+   "mnd_pct": 8.24,
+   "rsi": 75.3,
    "tid": 1790895600,
    "kurs_nok": 346.5
   }
