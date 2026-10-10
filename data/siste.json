@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-10T06:41:50+00:00",
+ "generert": "2026-10-10T13:05:17+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -26,23 +26,23 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
-   "kurs": 1.41,
-   "kurs_nok": 13.46,
+   "kurs": 1.4,
+   "kurs_nok": 13.4,
    "valuta": "USD",
-   "dogn_pct": 0.47,
-   "volum24": 1581020814.6634924,
-   "tid": 1791614500,
+   "dogn_pct": 0.94,
+   "volum24": 1241059861.4347188,
+   "tid": 1791637508,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 26.8 – oversolgt-sone"
+     "tekst": "RSI(14) 25.1 – oversolgt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": -5.12,
-   "mnd_pct": 5.7,
-   "rsi": 26.8
+   "uke_pct": -5.8,
+   "mnd_pct": 4.95,
+   "rsi": 25.1
   },
   {
    "id": "stellar",
@@ -52,17 +52,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.197139,
+   "kurs": 0.196851,
    "kurs_nok": 1.88,
    "valuta": "USD",
-   "dogn_pct": 0.87,
-   "volum24": 116194057.95391956,
-   "tid": 1791614500,
+   "dogn_pct": 1.86,
+   "volum24": 96623604.54916771,
+   "tid": 1791637508,
    "signaler": [],
    "feil": null,
-   "uke_pct": -8.75,
-   "mnd_pct": 12.86,
-   "rsi": 39.0
+   "uke_pct": -8.88,
+   "mnd_pct": 12.69,
+   "rsi": 38.8
   },
   {
    "id": "algorand",
@@ -72,17 +72,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.115945,
-   "kurs_nok": 1.11,
+   "kurs": 0.114844,
+   "kurs_nok": 1.098,
    "valuta": "USD",
-   "dogn_pct": -3.58,
-   "volum24": 70763824.96082284,
-   "tid": 1791614500,
+   "dogn_pct": -2.29,
+   "volum24": 59964404.460511,
+   "tid": 1791637508,
    "signaler": [],
    "feil": null,
-   "uke_pct": -11.69,
-   "mnd_pct": 26.99,
-   "rsi": 48.2
+   "uke_pct": -12.53,
+   "mnd_pct": 25.79,
+   "rsi": 47.2
   },
   {
    "id": "bitcoin",
@@ -92,17 +92,17 @@
    "tema": "Referanse",
    "eier": false,
    "merknad": "Markedsreferanse, BIP-360",
-   "kurs": 82716,
-   "kurs_nok": 790472,
+   "kurs": 82760,
+   "kurs_nok": 790897,
    "valuta": "USD",
-   "dogn_pct": 0.25,
-   "volum24": 23008055908.77017,
-   "tid": 1791614500,
+   "dogn_pct": -0.28,
+   "volum24": 19959298356.42057,
+   "tid": 1791637508,
    "signaler": [],
    "feil": null,
-   "uke_pct": -2.39,
-   "mnd_pct": 8.05,
-   "rsi": 42.0
+   "uke_pct": -2.34,
+   "mnd_pct": 8.11,
+   "rsi": 42.3
   },
   {
    "id": "quantum-resistant-ledger",
@@ -112,12 +112,12 @@
    "tema": "Kvantesikker krypto",
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
-   "kurs": 1.18,
-   "kurs_nok": 11.27,
+   "kurs": 1.12,
+   "kurs_nok": 10.7,
    "valuta": "USD",
-   "dogn_pct": -6.18,
-   "volum24": 114637.44436070962,
-   "tid": 1791614500,
+   "dogn_pct": -7.96,
+   "volum24": 99752.9183251622,
+   "tid": 1791637508,
    "signaler": [],
    "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
   },
@@ -262,24 +262,13 @@
    "merknad": "Proxima-investor",
    "kurs": 57.94,
    "valuta": "EUR",
-   "dogn_pct": 0.07,
-   "signaler": [
-    {
-     "kode": "RSI",
-     "nivaa": "obs",
-     "tekst": "RSI(14) 26.6 – oversolgt-sone"
-    },
-    {
-     "kode": "BUNN",
-     "nivaa": "info",
-     "tekst": "Ny 30-dagers bunn"
-    }
-   ],
+   "dogn_pct": 1.22,
+   "signaler": [],
    "feil": null,
-   "uke_pct": -0.79,
-   "mnd_pct": -3.85,
-   "rsi": 26.6,
-   "tid": 1791410400,
+   "uke_pct": -1.96,
+   "mnd_pct": -3.72,
+   "rsi": 36.1,
+   "tid": 1791496800,
    "kurs_nok": 620.2
   },
   {
@@ -330,13 +319,13 @@
    "merknad": "",
    "kurs": 417.9,
    "valuta": "NOK",
-   "dogn_pct": 3.57,
+   "dogn_pct": 1.75,
    "signaler": [],
    "feil": null,
-   "uke_pct": 4.01,
-   "mnd_pct": 0.6,
-   "rsi": 45.1,
-   "tid": 1791410400,
+   "uke_pct": 3.75,
+   "mnd_pct": 0.99,
+   "rsi": 58.6,
+   "tid": 1791496800,
    "kurs_nok": 417.9
   },
   {
@@ -349,7 +338,7 @@
    "merknad": "",
    "kurs": 302.4,
    "valuta": "NOK",
-   "dogn_pct": -1.66,
+   "dogn_pct": -0.62,
    "signaler": [
     {
      "kode": "BUNN",
@@ -358,10 +347,10 @@
     }
    ],
    "feil": null,
-   "uke_pct": -2.2,
-   "mnd_pct": -5.17,
-   "rsi": 36.2,
-   "tid": 1791410400,
+   "uke_pct": -2.14,
+   "mnd_pct": -4.82,
+   "rsi": 30.2,
+   "tid": 1791496800,
    "kurs_nok": 302.4
   },
   {
@@ -374,24 +363,13 @@
    "merknad": "",
    "kurs": 1.994,
    "valuta": "NOK",
-   "dogn_pct": 0.1,
-   "signaler": [
-    {
-     "kode": "RSI",
-     "nivaa": "obs",
-     "tekst": "RSI(14) 25.7 – oversolgt-sone"
-    },
-    {
-     "kode": "BUNN",
-     "nivaa": "info",
-     "tekst": "Ny 30-dagers bunn"
-    }
-   ],
+   "dogn_pct": 1.73,
+   "signaler": [],
    "feil": null,
-   "uke_pct": -3.67,
+   "uke_pct": -4.36,
    "mnd_pct": -3.67,
-   "rsi": 25.7,
-   "tid": 1791410400,
+   "rsi": 35.9,
+   "tid": 1791496800,
    "kurs_nok": 1.99
   },
   {
