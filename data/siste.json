@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-10T13:05:17+00:00",
+ "generert": "2026-10-10T17:49:30+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -27,22 +27,22 @@
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
    "kurs": 1.4,
-   "kurs_nok": 13.4,
+   "kurs_nok": 13.41,
    "valuta": "USD",
-   "dogn_pct": 0.94,
-   "volum24": 1241059861.4347188,
-   "tid": 1791637508,
+   "dogn_pct": 1.23,
+   "volum24": 991028371.8928401,
+   "tid": 1791654567,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 25.1 – oversolgt-sone"
+     "tekst": "RSI(14) 25.4 – oversolgt-sone"
     }
    ],
    "feil": null,
    "uke_pct": -5.8,
    "mnd_pct": 4.95,
-   "rsi": 25.1
+   "rsi": 25.4
   },
   {
    "id": "stellar",
@@ -52,17 +52,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.196851,
-   "kurs_nok": 1.88,
+   "kurs": 0.197579,
+   "kurs_nok": 1.89,
    "valuta": "USD",
-   "dogn_pct": 1.86,
-   "volum24": 96623604.54916771,
-   "tid": 1791637508,
+   "dogn_pct": 2.43,
+   "volum24": 88088133.54217404,
+   "tid": 1791654567,
    "signaler": [],
    "feil": null,
-   "uke_pct": -8.88,
-   "mnd_pct": 12.69,
-   "rsi": 38.8
+   "uke_pct": -8.54,
+   "mnd_pct": 13.11,
+   "rsi": 39.3
   },
   {
    "id": "algorand",
@@ -72,17 +72,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.114844,
-   "kurs_nok": 1.098,
+   "kurs": 0.119462,
+   "kurs_nok": 1.14,
    "valuta": "USD",
-   "dogn_pct": -2.29,
-   "volum24": 59964404.460511,
-   "tid": 1791637508,
+   "dogn_pct": 4.64,
+   "volum24": 62248071.85855297,
+   "tid": 1791654567,
    "signaler": [],
    "feil": null,
-   "uke_pct": -12.53,
-   "mnd_pct": 25.79,
-   "rsi": 47.2
+   "uke_pct": -9.01,
+   "mnd_pct": 30.84,
+   "rsi": 50.9
   },
   {
    "id": "bitcoin",
@@ -92,17 +92,17 @@
    "tema": "Referanse",
    "eier": false,
    "merknad": "Markedsreferanse, BIP-360",
-   "kurs": 82760,
-   "kurs_nok": 790897,
+   "kurs": 83061,
+   "kurs_nok": 793776,
    "valuta": "USD",
-   "dogn_pct": -0.28,
-   "volum24": 19959298356.42057,
-   "tid": 1791637508,
+   "dogn_pct": 0.54,
+   "volum24": 16772661201.100594,
+   "tid": 1791654567,
    "signaler": [],
    "feil": null,
-   "uke_pct": -2.34,
-   "mnd_pct": 8.11,
-   "rsi": 42.3
+   "uke_pct": -1.98,
+   "mnd_pct": 8.5,
+   "rsi": 43.9
   },
   {
    "id": "quantum-resistant-ledger",
@@ -112,12 +112,12 @@
    "tema": "Kvantesikker krypto",
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
-   "kurs": 1.12,
-   "kurs_nok": 10.7,
+   "kurs": 1.29,
+   "kurs_nok": 12.37,
    "valuta": "USD",
-   "dogn_pct": -7.96,
-   "volum24": 99752.9183251622,
-   "tid": 1791637508,
+   "dogn_pct": 9.71,
+   "volum24": 145925.50312084277,
+   "tid": 1791654567,
    "signaler": [],
    "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
   },
