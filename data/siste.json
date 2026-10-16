@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-16T21:00:34+00:00",
+ "generert": "2026-10-16T23:28:59+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -11,10 +11,10 @@
   "maks_varsler_per_time": 1
  },
  "valutakurser": {
-  "USD": 9.4731,
-  "EUR": 10.5936,
+  "USD": 9.4135,
+  "EUR": 10.595,
   "JPY": 0.0596,
-  "HKD": 1.1962,
+  "HKD": 1.1964,
   "NOK": 1.0
  },
  "instrumenter": [
@@ -26,23 +26,23 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
-   "kurs": 1.3,
-   "kurs_nok": 12.29,
+   "kurs": 1.31,
+   "kurs_nok": 12.34,
    "valuta": "USD",
-   "dogn_pct": -2.51,
-   "volum24": 1450218518.0780923,
-   "tid": 1792184430,
+   "dogn_pct": -1.7,
+   "volum24": 1468182658.50085,
+   "tid": 1792193336,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 25.2 – oversolgt-sone"
+     "tekst": "RSI(14) 25.6 – oversolgt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": -6.79,
-   "mnd_pct": 0.13,
-   "rsi": 25.2
+   "uke_pct": -6.07,
+   "mnd_pct": 0.9,
+   "rsi": 25.6
   },
   {
    "id": "stellar",
@@ -52,17 +52,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.180262,
-   "kurs_nok": 1.7,
+   "kurs": 0.181017,
+   "kurs_nok": 1.71,
    "valuta": "USD",
-   "dogn_pct": -1.98,
-   "volum24": 123235060.4637893,
-   "tid": 1792184430,
+   "dogn_pct": -0.94,
+   "volum24": 121149110.34152617,
+   "tid": 1792193336,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 26.5 – oversolgt-sone"
+     "tekst": "RSI(14) 26.7 – oversolgt-sone"
     },
     {
      "kode": "BUNN",
@@ -71,9 +71,9 @@
     }
    ],
    "feil": null,
-   "uke_pct": -7.36,
-   "mnd_pct": -1.89,
-   "rsi": 26.5
+   "uke_pct": -6.97,
+   "mnd_pct": -1.48,
+   "rsi": 26.7
   },
   {
    "id": "algorand",
@@ -83,17 +83,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.114945,
-   "kurs_nok": 1.084,
+   "kurs": 0.115299,
+   "kurs_nok": 1.087,
    "valuta": "USD",
-   "dogn_pct": -0.27,
-   "volum24": 54949843.411447324,
-   "tid": 1792184430,
+   "dogn_pct": -2.38,
+   "volum24": 54063853.1451018,
+   "tid": 1792193336,
    "signaler": [],
    "feil": null,
-   "uke_pct": 0.33,
-   "mnd_pct": 29.29,
-   "rsi": 38.5
+   "uke_pct": 0.64,
+   "mnd_pct": 29.68,
+   "rsi": 38.8
   },
   {
    "id": "bitcoin",
@@ -103,17 +103,17 @@
    "tema": "Referanse",
    "eier": false,
    "merknad": "Markedsreferanse, BIP-360",
-   "kurs": 81665,
-   "kurs_nok": 769895,
+   "kurs": 81614,
+   "kurs_nok": 769430,
    "valuta": "USD",
-   "dogn_pct": -0.38,
-   "volum24": 29113865200.848217,
-   "tid": 1792184430,
+   "dogn_pct": -0.66,
+   "volum24": 28412267735.321926,
+   "tid": 1792193336,
    "signaler": [],
    "feil": null,
-   "uke_pct": -1.09,
-   "mnd_pct": 7.25,
-   "rsi": 40.2
+   "uke_pct": -1.15,
+   "mnd_pct": 7.18,
+   "rsi": 40.1
   },
   {
    "id": "quantum-resistant-ledger",
@@ -123,14 +123,23 @@
    "tema": "Kvantesikker krypto",
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
-   "kurs": 1.2,
-   "kurs_nok": 11.34,
+   "kurs": 1.16,
+   "kurs_nok": 10.9,
    "valuta": "USD",
-   "dogn_pct": 18.71,
-   "volum24": 141580.23588034877,
-   "tid": 1792184430,
-   "signaler": [],
-   "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
+   "dogn_pct": 12.16,
+   "volum24": 134176.5282333077,
+   "tid": 1792193336,
+   "signaler": [
+    {
+     "kode": "DOGN",
+     "nivaa": "viktig",
+     "tekst": "Døgnbevegelse +12.2 % (opp), terskel 5 %"
+    }
+   ],
+   "feil": null,
+   "uke_pct": -2.27,
+   "mnd_pct": 70.13,
+   "rsi": 68.4
   },
   {
    "id": "GEV",
@@ -149,7 +158,7 @@
    "mnd_pct": -0.4,
    "rsi": 44.1,
    "tid": 1792123200,
-   "kurs_nok": 8726.62
+   "kurs_nok": 8671.72
   },
   {
    "id": "OKLO",
@@ -184,7 +193,7 @@
    "mnd_pct": -29.46,
    "rsi": 22.6,
    "tid": 1792123200,
-   "kurs_nok": 264.96
+   "kurs_nok": 263.3
   },
   {
    "id": "IONQ",
@@ -219,7 +228,7 @@
    "mnd_pct": -22.46,
    "rsi": 18.2,
    "tid": 1792123200,
-   "kurs_nok": 296.32
+   "kurs_nok": 294.45
   },
   {
    "id": "IBM",
@@ -238,7 +247,7 @@
    "mnd_pct": -2.36,
    "rsi": 67.3,
    "tid": 1792123200,
-   "kurs_nok": 2199.09
+   "kurs_nok": 2185.25
   },
   {
    "id": "GOOGL",
@@ -257,7 +266,7 @@
    "mnd_pct": -1.94,
    "rsi": 47.7,
    "tid": 1792123200,
-   "kurs_nok": 3226.44
+   "kurs_nok": 3206.14
   },
   {
    "id": "DJT",
@@ -292,7 +301,7 @@
    "mnd_pct": -19.47,
    "rsi": 11.6,
    "tid": 1792123200,
-   "kurs_nok": 66.22
+   "kurs_nok": 65.8
   },
   {
    "id": "RWE.DE",
@@ -304,14 +313,14 @@
    "merknad": "Proxima-investor",
    "kurs": 59.04,
    "valuta": "EUR",
-   "dogn_pct": 1.93,
+   "dogn_pct": 0.07,
    "signaler": [],
    "feil": null,
-   "uke_pct": 1.9,
-   "mnd_pct": -2.61,
-   "rsi": 49.4,
-   "tid": 1792101600,
-   "kurs_nok": 625.45
+   "uke_pct": 3.14,
+   "mnd_pct": -1.47,
+   "rsi": 40.4,
+   "tid": 1792015200,
+   "kurs_nok": 625.53
   },
   {
    "id": "5803.T",
@@ -361,7 +370,7 @@
    "mnd_pct": -22.27,
    "rsi": 28.3,
    "tid": 1792080000,
-   "kurs_nok": 46.77
+   "kurs_nok": 46.78
   },
   {
    "id": "EQNR.OL",
@@ -373,24 +382,19 @@
    "merknad": "",
    "kurs": 432.6,
    "valuta": "NOK",
-   "dogn_pct": 0.77,
+   "dogn_pct": 0.14,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 72.5 – overkjøpt-sone"
-    },
-    {
-     "kode": "TOPP",
-     "nivaa": "info",
-     "tekst": "Ny 30-dagers topp"
+     "tekst": "RSI(14) 71.4 – overkjøpt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": 3.52,
-   "mnd_pct": 3.92,
-   "rsi": 72.5,
-   "tid": 1792101600,
+   "uke_pct": 5.33,
+   "mnd_pct": 2.71,
+   "rsi": 71.4,
+   "tid": 1792015200,
    "kurs_nok": 432.6
   },
   {
@@ -403,19 +407,13 @@
    "merknad": "",
    "kurs": 306.9,
    "valuta": "NOK",
-   "dogn_pct": 0.62,
-   "signaler": [
-    {
-     "kode": "RSI",
-     "nivaa": "obs",
-     "tekst": "RSI(14) 27.7 – oversolgt-sone"
-    }
-   ],
+   "dogn_pct": -0.49,
+   "signaler": [],
    "feil": null,
-   "uke_pct": 1.49,
-   "mnd_pct": -3.67,
-   "rsi": 27.7,
-   "tid": 1792101600,
+   "uke_pct": 0.85,
+   "mnd_pct": -2.54,
+   "rsi": 35.1,
+   "tid": 1792015200,
    "kurs_nok": 306.9
   },
   {
@@ -428,13 +426,13 @@
    "merknad": "",
    "kurs": 2.065,
    "valuta": "NOK",
-   "dogn_pct": 2.23,
+   "dogn_pct": -4.62,
    "signaler": [],
    "feil": null,
-   "uke_pct": 3.56,
-   "mnd_pct": 1.23,
-   "rsi": 52.0,
-   "tid": 1792101600,
+   "uke_pct": 5.36,
+   "mnd_pct": 1.72,
+   "rsi": 46.7,
+   "tid": 1792015200,
    "kurs_nok": 2.06
   },
   {
@@ -447,19 +445,19 @@
    "merknad": "Pensjon ASK. NAV daglig. Bytt ticker hvis Yahoo mangler data.",
    "kurs": 316.325,
    "valuta": "NOK",
-   "dogn_pct": -3.3,
+   "dogn_pct": 0.0,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 29.7 – oversolgt-sone"
+     "tekst": "RSI(14) 25.0 – oversolgt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": -8.47,
-   "mnd_pct": 1.03,
-   "rsi": 29.7,
-   "tid": 1791932400,
+   "uke_pct": -5.72,
+   "mnd_pct": 0.22,
+   "rsi": 25.0,
+   "tid": 1792018800,
    "kurs_nok": 316.32
   }
  ]
