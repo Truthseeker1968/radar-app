@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-18T14:18:42+00:00",
+ "generert": "2026-10-18T17:26:26+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -26,43 +26,12 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
-   "kurs": 1.28,
-   "kurs_nok": 12.02,
+   "kurs": 1.27,
+   "kurs_nok": 12.01,
    "valuta": "USD",
-   "dogn_pct": -1.74,
-   "volum24": 1039371851.1313051,
-   "tid": 1792333119,
-   "signaler": [
-    {
-     "kode": "RSI",
-     "nivaa": "obs",
-     "tekst": "RSI(14) 15.9 – oversolgt-sone"
-    },
-    {
-     "kode": "BUNN",
-     "nivaa": "info",
-     "tekst": "Ny 30-dagers bunn"
-    }
-   ],
-   "feil": null,
-   "uke_pct": -9.16,
-   "mnd_pct": -8.31,
-   "rsi": 15.9
-  },
-  {
-   "id": "stellar",
-   "navn": "Stellar",
-   "symbol": "XLM",
-   "type": "crypto",
-   "tema": "Kvantesikker krypto",
-   "eier": true,
-   "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.175176,
-   "kurs_nok": 1.65,
-   "valuta": "USD",
-   "dogn_pct": -1.45,
-   "volum24": 98838751.89293921,
-   "tid": 1792333119,
+   "dogn_pct": -1.32,
+   "volum24": 1104028311.7870808,
+   "tid": 1792344370,
    "signaler": [
     {
      "kode": "RSI",
@@ -76,9 +45,40 @@
     }
    ],
    "feil": null,
-   "uke_pct": -13.66,
-   "mnd_pct": -9.28,
+   "uke_pct": -9.87,
+   "mnd_pct": -9.03,
    "rsi": 15.8
+  },
+  {
+   "id": "stellar",
+   "navn": "Stellar",
+   "symbol": "XLM",
+   "type": "crypto",
+   "tema": "Kvantesikker krypto",
+   "eier": true,
+   "merknad": "Ed25519, ingen PQ-plan publisert",
+   "kurs": 0.174474,
+   "kurs_nok": 1.64,
+   "valuta": "USD",
+   "dogn_pct": -1.3,
+   "volum24": 100403644.96882716,
+   "tid": 1792344370,
+   "signaler": [
+    {
+     "kode": "RSI",
+     "nivaa": "obs",
+     "tekst": "RSI(14) 15.7 – oversolgt-sone"
+    },
+    {
+     "kode": "BUNN",
+     "nivaa": "info",
+     "tekst": "Ny 30-dagers bunn"
+    }
+   ],
+   "feil": null,
+   "uke_pct": -14.01,
+   "mnd_pct": -9.64,
+   "rsi": 15.7
   },
   {
    "id": "algorand",
@@ -88,23 +88,23 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.108488,
-   "kurs_nok": 1.023,
+   "kurs": 0.108279,
+   "kurs_nok": 1.021,
    "valuta": "USD",
-   "dogn_pct": -3.09,
-   "volum24": 40102428.61326078,
-   "tid": 1792333119,
+   "dogn_pct": -2.25,
+   "volum24": 40682253.095262334,
+   "tid": 1792344370,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 28.0 – oversolgt-sone"
+     "tekst": "RSI(14) 27.9 – oversolgt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": -14.06,
-   "mnd_pct": 10.84,
-   "rsi": 28.0
+   "uke_pct": -14.22,
+   "mnd_pct": 10.63,
+   "rsi": 27.9
   },
   {
    "id": "bitcoin",
@@ -114,23 +114,28 @@
    "tema": "Referanse",
    "eier": false,
    "merknad": "Markedsreferanse, BIP-360",
-   "kurs": 81203,
-   "kurs_nok": 765553,
+   "kurs": 81117,
+   "kurs_nok": 764751,
    "valuta": "USD",
-   "dogn_pct": -0.23,
-   "volum24": 16825023311.096966,
-   "tid": 1792333119,
+   "dogn_pct": -0.11,
+   "volum24": 17871894530.47041,
+   "tid": 1792344370,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 29.7 – oversolgt-sone"
+     "tekst": "RSI(14) 29.5 – oversolgt-sone"
+    },
+    {
+     "kode": "BUNN",
+     "nivaa": "info",
+     "tekst": "Ny 30-dagers bunn"
     }
    ],
    "feil": null,
-   "uke_pct": -2.97,
-   "mnd_pct": 0.41,
-   "rsi": 29.7
+   "uke_pct": -3.08,
+   "mnd_pct": 0.3,
+   "rsi": 29.5
   },
   {
    "id": "quantum-resistant-ledger",
@@ -140,12 +145,12 @@
    "tema": "Kvantesikker krypto",
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
-   "kurs": 1.14,
-   "kurs_nok": 10.71,
+   "kurs": 1.2,
+   "kurs_nok": 11.36,
    "valuta": "USD",
-   "dogn_pct": 0.49,
-   "volum24": 49152.23072288266,
-   "tid": 1792333119,
+   "dogn_pct": 7.34,
+   "volum24": 75483.54644988959,
+   "tid": 1792344370,
    "signaler": [],
    "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
   },
