@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-24T21:45:35+00:00",
+ "generert": "2026-10-24T23:48:19+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -11,7 +11,7 @@
   "maks_varsler_per_time": 1
  },
  "valutakurser": {
-  "USD": 9.3254,
+  "USD": 9.3162,
   "EUR": 10.4423,
   "JPY": 0.0594,
   "HKD": 1.184,
@@ -26,23 +26,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
-   "kurs": 1.29,
-   "kurs_nok": 12.04,
+   "kurs": 1.3,
+   "kurs_nok": 12.1,
    "valuta": "USD",
-   "dogn_pct": -1.01,
-   "volum24": 1390538101.5307615,
-   "tid": 1792878324,
-   "signaler": [
-    {
-     "kode": "BUNN",
-     "nivaa": "info",
-     "tekst": "Ny 30-dagers bunn"
-    }
-   ],
+   "dogn_pct": 0.43,
+   "volum24": 1294099614.806118,
+   "tid": 1792885696,
+   "signaler": [],
    "feil": null,
-   "uke_pct": -0.21,
-   "mnd_pct": -15.91,
-   "rsi": 33.4
+   "uke_pct": 0.57,
+   "mnd_pct": -15.25,
+   "rsi": 34.4
   },
   {
    "id": "stellar",
@@ -52,17 +46,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.170365,
-   "kurs_nok": 1.59,
+   "kurs": 0.171391,
+   "kurs_nok": 1.6,
    "valuta": "USD",
-   "dogn_pct": -2.43,
-   "volum24": 107847794.66149522,
-   "tid": 1792878324,
+   "dogn_pct": -0.89,
+   "volum24": 96491685.83578892,
+   "tid": 1792885696,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 25.6 – oversolgt-sone"
+     "tekst": "RSI(14) 26.1 – oversolgt-sone"
     },
     {
      "kode": "BUNN",
@@ -71,9 +65,9 @@
     }
    ],
    "feil": null,
-   "uke_pct": -3.74,
-   "mnd_pct": -21.65,
-   "rsi": 25.6
+   "uke_pct": -3.16,
+   "mnd_pct": -21.18,
+   "rsi": 26.1
   },
   {
    "id": "algorand",
@@ -83,12 +77,12 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.103613,
-   "kurs_nok": 0.966087,
+   "kurs": 0.104376,
+   "kurs_nok": 0.973199,
    "valuta": "USD",
-   "dogn_pct": -2.83,
-   "volum24": 42270283.50159217,
-   "tid": 1792878324,
+   "dogn_pct": -1.21,
+   "volum24": 40730647.08899588,
+   "tid": 1792885696,
    "signaler": [
     {
      "kode": "BUNN",
@@ -97,9 +91,9 @@
     }
    ],
    "feil": null,
-   "uke_pct": -7.35,
-   "mnd_pct": -8.46,
-   "rsi": 34.4
+   "uke_pct": -6.67,
+   "mnd_pct": -7.79,
+   "rsi": 34.9
   },
   {
    "id": "bitcoin",
@@ -109,12 +103,12 @@
    "tema": "Referanse",
    "eier": false,
    "merknad": "Markedsreferanse, BIP-360",
-   "kurs": 80323,
-   "kurs_nok": 748932,
+   "kurs": 80794,
+   "kurs_nok": 753320,
    "valuta": "USD",
-   "dogn_pct": -1.17,
-   "volum24": 23485419164.711945,
-   "tid": 1792878324,
+   "dogn_pct": -0.26,
+   "volum24": 21982254548.49918,
+   "tid": 1792885696,
    "signaler": [
     {
      "kode": "BUNN",
@@ -123,9 +117,9 @@
     }
    ],
    "feil": null,
-   "uke_pct": -1.33,
-   "mnd_pct": -4.81,
-   "rsi": 40.4
+   "uke_pct": -0.75,
+   "mnd_pct": -4.25,
+   "rsi": 41.9
   },
   {
    "id": "quantum-resistant-ledger",
@@ -136,11 +130,11 @@
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
    "kurs": 1.21,
-   "kurs_nok": 11.26,
+   "kurs_nok": 11.33,
    "valuta": "USD",
-   "dogn_pct": -0.96,
-   "volum24": 29598.57409934913,
-   "tid": 1792878324,
+   "dogn_pct": -0.86,
+   "volum24": 26712.791809107082,
+   "tid": 1792885696,
    "signaler": [],
    "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
   },
@@ -172,7 +166,7 @@
    "mnd_pct": -14.66,
    "rsi": 25.3,
    "tid": 1792728000,
-   "kurs_nok": 7600.2
+   "kurs_nok": 7592.7
   },
   {
    "id": "OKLO",
@@ -202,7 +196,7 @@
    "mnd_pct": -31.18,
    "rsi": 23.2,
    "tid": 1792728000,
-   "kurs_nok": 245.72
+   "kurs_nok": 245.48
   },
   {
    "id": "IONQ",
@@ -227,7 +221,7 @@
    "mnd_pct": -30.48,
    "rsi": 23.8,
    "tid": 1792728000,
-   "kurs_nok": 291.61
+   "kurs_nok": 291.32
   },
   {
    "id": "IBM",
@@ -257,7 +251,7 @@
    "mnd_pct": 11.67,
    "rsi": 86.3,
    "tid": 1792728000,
-   "kurs_nok": 2364.55
+   "kurs_nok": 2362.22
   },
   {
    "id": "GOOGL",
@@ -287,7 +281,7 @@
    "mnd_pct": -6.47,
    "rsi": 26.4,
    "tid": 1792728000,
-   "kurs_nok": 2986.09
+   "kurs_nok": 2983.14
   },
   {
    "id": "DJT",
@@ -317,7 +311,7 @@
    "mnd_pct": -29.67,
    "rsi": 13.9,
    "tid": 1792728000,
-   "kurs_nok": 59.68
+   "kurs_nok": 59.62
   },
   {
    "id": "RWE.DE",
