@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-24T23:48:19+00:00",
+ "generert": "2026-10-25T01:48:17+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -27,16 +27,16 @@
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
    "kurs": 1.3,
-   "kurs_nok": 12.1,
+   "kurs_nok": 12.16,
    "valuta": "USD",
-   "dogn_pct": 0.43,
-   "volum24": 1294099614.806118,
-   "tid": 1792885696,
+   "dogn_pct": 1.1,
+   "volum24": 1290120478.2246823,
+   "tid": 1792892895,
    "signaler": [],
    "feil": null,
-   "uke_pct": 0.57,
-   "mnd_pct": -15.25,
-   "rsi": 34.4
+   "uke_pct": -0.43,
+   "mnd_pct": -17.1,
+   "rsi": 34.2
   },
   {
    "id": "stellar",
@@ -46,28 +46,23 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.171391,
+   "kurs": 0.171807,
    "kurs_nok": 1.6,
    "valuta": "USD",
-   "dogn_pct": -0.89,
-   "volum24": 96491685.83578892,
-   "tid": 1792885696,
+   "dogn_pct": -0.64,
+   "volum24": 93560429.2199509,
+   "tid": 1792892895,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 26.1 – oversolgt-sone"
-    },
-    {
-     "kode": "BUNN",
-     "nivaa": "info",
-     "tekst": "Ny 30-dagers bunn"
+     "tekst": "RSI(14) 16.7 – oversolgt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": -3.16,
-   "mnd_pct": -21.18,
-   "rsi": 26.1
+   "uke_pct": -3.38,
+   "mnd_pct": -21.97,
+   "rsi": 16.7
   },
   {
    "id": "algorand",
@@ -77,23 +72,23 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.104376,
-   "kurs_nok": 0.973199,
+   "kurs": 0.104378,
+   "kurs_nok": 0.973217,
    "valuta": "USD",
-   "dogn_pct": -1.21,
-   "volum24": 40730647.08899588,
-   "tid": 1792885696,
+   "dogn_pct": -1.31,
+   "volum24": 39869039.89259709,
+   "tid": 1792892895,
    "signaler": [
     {
-     "kode": "BUNN",
-     "nivaa": "info",
-     "tekst": "Ny 30-dagers bunn"
+     "kode": "RSI",
+     "nivaa": "obs",
+     "tekst": "RSI(14) 20.3 – oversolgt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": -6.67,
-   "mnd_pct": -7.79,
-   "rsi": 34.9
+   "uke_pct": -5.99,
+   "mnd_pct": -10.28,
+   "rsi": 20.3
   },
   {
    "id": "bitcoin",
@@ -106,9 +101,9 @@
    "kurs": 80794,
    "kurs_nok": 753320,
    "valuta": "USD",
-   "dogn_pct": -0.26,
-   "volum24": 21982254548.49918,
-   "tid": 1792885696,
+   "dogn_pct": -0.01,
+   "volum24": 21141510631.84634,
+   "tid": 1792892895,
    "signaler": [
     {
      "kode": "BUNN",
@@ -117,9 +112,9 @@
     }
    ],
    "feil": null,
-   "uke_pct": -0.75,
-   "mnd_pct": -4.25,
-   "rsi": 41.9
+   "uke_pct": -1.49,
+   "mnd_pct": -3.9,
+   "rsi": 38.2
   },
   {
    "id": "quantum-resistant-ledger",
@@ -130,11 +125,11 @@
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
    "kurs": 1.21,
-   "kurs_nok": 11.33,
+   "kurs_nok": 11.27,
    "valuta": "USD",
-   "dogn_pct": -0.86,
-   "volum24": 26712.791809107082,
-   "tid": 1792885696,
+   "dogn_pct": -0.78,
+   "volum24": 25379.05291752015,
+   "tid": 1792892895,
    "signaler": [],
    "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
   },
