@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-01T20:45:54+00:00",
+ "generert": "2026-11-01T23:57:08+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -11,10 +11,10 @@
   "maks_varsler_per_time": 1
  },
  "valutakurser": {
-  "USD": 9.1871,
-  "EUR": 10.3393,
+  "USD": 9.2152,
+  "EUR": 10.2819,
   "JPY": 0.0584,
-  "HKD": 1.1682,
+  "HKD": 1.1703,
   "NOK": 1.0
  },
  "instrumenter": [
@@ -27,11 +27,11 @@
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
    "kurs": 1.25,
-   "kurs_nok": 11.69,
+   "kurs_nok": 11.52,
    "valuta": "USD",
-   "dogn_pct": -0.01,
-   "volum24": 750237541.3967881,
-   "tid": 1793565947,
+   "dogn_pct": -0.06,
+   "volum24": 809787551.1820105,
+   "tid": 1793577422,
    "signaler": [],
    "feil": null,
    "uke_pct": -3.43,
@@ -46,17 +46,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.167409,
-   "kurs_nok": 1.57,
+   "kurs": 0.168287,
+   "kurs_nok": 1.55,
    "valuta": "USD",
-   "dogn_pct": -1.25,
-   "volum24": 72603620.64128916,
-   "tid": 1793565947,
+   "dogn_pct": -0.72,
+   "volum24": 76374282.524402,
+   "tid": 1793577422,
    "signaler": [],
    "feil": null,
-   "uke_pct": -0.34,
-   "mnd_pct": -22.29,
-   "rsi": 39.3
+   "uke_pct": 0.18,
+   "mnd_pct": -21.88,
+   "rsi": 40.0
   },
   {
    "id": "algorand",
@@ -66,12 +66,12 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.093778,
-   "kurs_nok": 0.877167,
+   "kurs": 0.093856,
+   "kurs_nok": 0.865213,
    "valuta": "USD",
-   "dogn_pct": -1.2,
-   "volum24": 28771122.819428403,
-   "tid": 1793565947,
+   "dogn_pct": -1.34,
+   "volum24": 29884733.791705567,
+   "tid": 1793577422,
    "signaler": [
     {
      "kode": "RSI",
@@ -80,8 +80,8 @@
     }
    ],
    "feil": null,
-   "uke_pct": -10.51,
-   "mnd_pct": -26.29,
+   "uke_pct": -10.43,
+   "mnd_pct": -26.22,
    "rsi": 23.6
   },
   {
@@ -92,17 +92,23 @@
    "tema": "Referanse",
    "eier": false,
    "merknad": "Markedsreferanse, BIP-360",
-   "kurs": 77816,
-   "kurs_nok": 727863,
+   "kurs": 78274,
+   "kurs_nok": 721567,
    "valuta": "USD",
-   "dogn_pct": 0.42,
-   "volum24": 65918089897.03677,
-   "tid": 1793565947,
-   "signaler": [],
+   "dogn_pct": 1.04,
+   "volum24": 75928361265.91824,
+   "tid": 1793577422,
+   "signaler": [
+    {
+     "kode": "VOLUM",
+     "nivaa": "obs",
+     "tekst": "Volum 2.2× 30-dagers snitt"
+    }
+   ],
    "feil": null,
-   "uke_pct": -2.79,
-   "mnd_pct": -7.92,
-   "rsi": 32.9
+   "uke_pct": -2.22,
+   "mnd_pct": -7.38,
+   "rsi": 35.3
   },
   {
    "id": "quantum-resistant-ledger",
@@ -113,16 +119,13 @@
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
    "kurs": 1.19,
-   "kurs_nok": 11.13,
+   "kurs_nok": 10.96,
    "valuta": "USD",
-   "dogn_pct": -2.74,
-   "volum24": 17424.57931267447,
-   "tid": 1793565947,
+   "dogn_pct": -1.83,
+   "volum24": 21322.856389435514,
+   "tid": 1793577422,
    "signaler": [],
-   "feil": null,
-   "uke_pct": -7.19,
-   "mnd_pct": 46.46,
-   "rsi": 45.4
+   "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
   },
   {
    "id": "GEV",
@@ -141,7 +144,7 @@
    "mnd_pct": -13.12,
    "rsi": 32.8,
    "tid": 1793332800,
-   "kurs_nok": 7881.34
+   "kurs_nok": 7905.44
   },
   {
    "id": "OKLO",
@@ -176,7 +179,7 @@
    "mnd_pct": -30.13,
    "rsi": 22.5,
    "tid": 1793332800,
-   "kurs_nok": 231.97
+   "kurs_nok": 232.68
   },
   {
    "id": "IONQ",
@@ -206,7 +209,7 @@
    "mnd_pct": -31.71,
    "rsi": 34.2,
    "tid": 1793332800,
-   "kurs_nok": 275.98
+   "kurs_nok": 276.82
   },
   {
    "id": "IBM",
@@ -231,7 +234,7 @@
    "mnd_pct": 14.27,
    "rsi": 82.0,
    "tid": 1793332800,
-   "kurs_nok": 2368.53
+   "kurs_nok": 2375.77
   },
   {
    "id": "GOOGL",
@@ -266,7 +269,7 @@
    "mnd_pct": -17.27,
    "rsi": 14.1,
    "tid": 1793332800,
-   "kurs_nok": 2570.92
+   "kurs_nok": 2578.78
   },
   {
    "id": "DJT",
@@ -296,7 +299,7 @@
    "mnd_pct": -36.41,
    "rsi": 17.3,
    "tid": 1793332800,
-   "kurs_nok": 51.36
+   "kurs_nok": 51.51
   },
   {
    "id": "RWE.DE",
@@ -315,7 +318,7 @@
    "mnd_pct": -1.47,
    "rsi": 43.1,
    "tid": 1793314800,
-   "kurs_nok": 594.92
+   "kurs_nok": 591.62
   },
   {
    "id": "5803.T",
@@ -380,7 +383,7 @@
    "mnd_pct": -35.02,
    "rsi": 18.3,
    "tid": 1793289600,
-   "kurs_nok": 42.06
+   "kurs_nok": 42.13
   },
   {
    "id": "EQNR.OL",
