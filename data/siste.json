@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-05T05:59:51+00:00",
+ "generert": "2026-11-05T14:30:31+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -11,10 +11,10 @@
   "maks_varsler_per_time": 1
  },
  "valutakurser": {
-  "USD": 9.2998,
-  "EUR": 10.472,
-  "JPY": 0.0589,
-  "HKD": 1.1806,
+  "USD": 9.296,
+  "EUR": 10.4244,
+  "JPY": 0.0586,
+  "HKD": 1.18,
   "NOK": 1.0
  },
  "instrumenter": [
@@ -26,17 +26,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
-   "kurs": 1.31,
-   "kurs_nok": 12.15,
+   "kurs": 1.3,
+   "kurs_nok": 12.12,
    "valuta": "USD",
-   "dogn_pct": 2.41,
-   "volum24": 2564212321.9676776,
-   "tid": 1793858381,
+   "dogn_pct": 1.58,
+   "volum24": 1935914875.4672053,
+   "tid": 1793889027,
    "signaler": [],
    "feil": null,
-   "uke_pct": 6.02,
-   "mnd_pct": -12.48,
-   "rsi": 49.6
+   "uke_pct": 5.21,
+   "mnd_pct": -13.15,
+   "rsi": 49.0
   },
   {
    "id": "stellar",
@@ -46,17 +46,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.166861,
-   "kurs_nok": 1.55,
+   "kurs": 0.163235,
+   "kurs_nok": 1.52,
    "valuta": "USD",
-   "dogn_pct": 2.4,
-   "volum24": 151043685.3119768,
-   "tid": 1793858381,
+   "dogn_pct": 0.4,
+   "volum24": 153661525.2101123,
+   "tid": 1793889027,
    "signaler": [],
    "feil": null,
-   "uke_pct": 2.94,
-   "mnd_pct": -21.34,
-   "rsi": 40.7
+   "uke_pct": 0.7,
+   "mnd_pct": -23.05,
+   "rsi": 37.7
   },
   {
    "id": "algorand",
@@ -66,23 +66,17 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.100342,
-   "kurs_nok": 0.933161,
+   "kurs": 0.097891,
+   "kurs_nok": 0.909821,
    "valuta": "USD",
-   "dogn_pct": 7.97,
-   "volum24": 46440066.5111141,
-   "tid": 1793858381,
-   "signaler": [
-    {
-     "kode": "DOGN",
-     "nivaa": "viktig",
-     "tekst": "Døgnbevegelse +8.0 % (opp), terskel 5 %"
-    }
-   ],
+   "dogn_pct": -0.55,
+   "volum24": 42686514.79419062,
+   "tid": 1793889027,
+   "signaler": [],
    "feil": null,
-   "uke_pct": 7.48,
-   "mnd_pct": -18.77,
-   "rsi": 39.9
+   "uke_pct": 4.85,
+   "mnd_pct": -20.76,
+   "rsi": 36.0
   },
   {
    "id": "bitcoin",
@@ -92,17 +86,17 @@
    "tema": "Referanse",
    "eier": false,
    "merknad": "Markedsreferanse, BIP-360",
-   "kurs": 80395,
-   "kurs_nok": 747659,
+   "kurs": 79437,
+   "kurs_nok": 738304,
    "valuta": "USD",
-   "dogn_pct": 3.48,
-   "volum24": 35448574270.09755,
-   "tid": 1793858381,
+   "dogn_pct": 1.37,
+   "volum24": 35283351786.685265,
+   "tid": 1793889027,
    "signaler": [],
    "feil": null,
-   "uke_pct": 3.28,
-   "mnd_pct": -6.01,
-   "rsi": 46.4
+   "uke_pct": 2.05,
+   "mnd_pct": -7.13,
+   "rsi": 43.2
   },
   {
    "id": "quantum-resistant-ledger",
@@ -112,23 +106,14 @@
    "tema": "Kvantesikker krypto",
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
-   "kurs": 1.094,
-   "kurs_nok": 10.18,
+   "kurs": 1.1,
+   "kurs_nok": 10.24,
    "valuta": "USD",
-   "dogn_pct": -2.74,
-   "volum24": 55195.621948157706,
-   "tid": 1793858381,
-   "signaler": [
-    {
-     "kode": "RSI",
-     "nivaa": "obs",
-     "tekst": "RSI(14) 26.1 – oversolgt-sone"
-    }
-   ],
-   "feil": null,
-   "uke_pct": -10.59,
-   "mnd_pct": 26.77,
-   "rsi": 26.1
+   "dogn_pct": -2.18,
+   "volum24": 46393.94748693661,
+   "tid": 1793889027,
+   "signaler": [],
+   "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
   },
   {
    "id": "GEV",
@@ -138,27 +123,22 @@
    "tema": "SMR",
    "eier": false,
    "merknad": "BWRX-300, første amerikanske SMR-byggetillatelse",
-   "kurs": 832.83,
+   "kurs": 801.905,
    "valuta": "USD",
-   "dogn_pct": -9.3,
+   "dogn_pct": -3.71,
    "signaler": [
     {
-     "kode": "DOGN",
-     "nivaa": "viktig",
-     "tekst": "Døgnbevegelse -9.3 % (ned), terskel 5 %"
-    },
-    {
-     "kode": "VOLUM",
-     "nivaa": "obs",
-     "tekst": "Volum 2.3× 30-dagers snitt"
+     "kode": "BUNN",
+     "nivaa": "info",
+     "tekst": "Ny 30-dagers bunn"
     }
    ],
    "feil": null,
-   "uke_pct": -5.15,
-   "mnd_pct": -19.08,
-   "rsi": 39.9,
-   "tid": 1793768400,
-   "kurs_nok": 7745.15
+   "uke_pct": -9.68,
+   "mnd_pct": -19.58,
+   "rsi": 37.9,
+   "tid": 1793854800,
+   "kurs_nok": 7454.51
   },
   {
    "id": "OKLO",
@@ -168,19 +148,14 @@
    "tema": "SMR",
    "eier": false,
    "merknad": "Høy volatilitet, utvanning",
-   "kurs": 22.12,
+   "kurs": 21.87,
    "valuta": "USD",
-   "dogn_pct": -5.83,
+   "dogn_pct": -1.13,
    "signaler": [
-    {
-     "kode": "DOGN",
-     "nivaa": "viktig",
-     "tekst": "Døgnbevegelse -5.8 % (ned), terskel 5 %"
-    },
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 16.1 – oversolgt-sone"
+     "tekst": "RSI(14) 19.1 – oversolgt-sone"
     },
     {
      "kode": "BUNN",
@@ -189,11 +164,11 @@
     }
    ],
    "feil": null,
-   "uke_pct": -18.44,
-   "mnd_pct": -42.62,
-   "rsi": 16.1,
-   "tid": 1793768400,
-   "kurs_nok": 205.71
+   "uke_pct": -18.43,
+   "mnd_pct": -40.6,
+   "rsi": 19.1,
+   "tid": 1793854800,
+   "kurs_nok": 203.3
   },
   {
    "id": "IONQ",
@@ -203,16 +178,16 @@
    "tema": "Kvante",
    "eier": false,
    "merknad": "",
-   "kurs": 29.54,
+   "kurs": 28.9887,
    "valuta": "USD",
-   "dogn_pct": -1.5,
+   "dogn_pct": -1.87,
    "signaler": [],
    "feil": null,
-   "uke_pct": -8.91,
-   "mnd_pct": -31.76,
-   "rsi": 35.0,
-   "tid": 1793768400,
-   "kurs_nok": 274.72
+   "uke_pct": -8.61,
+   "mnd_pct": -29.88,
+   "rsi": 41.5,
+   "tid": 1793854800,
+   "kurs_nok": 269.48
   },
   {
    "id": "IBM",
@@ -222,22 +197,22 @@
    "tema": "Kvante",
    "eier": false,
    "merknad": "",
-   "kurs": 254.32,
+   "kurs": 256.175,
    "valuta": "USD",
-   "dogn_pct": 1.71,
+   "dogn_pct": 0.73,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 71.4 – overkjøpt-sone"
+     "tekst": "RSI(14) 75.5 – overkjøpt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": 0.43,
-   "mnd_pct": 14.93,
-   "rsi": 71.4,
-   "tid": 1793768400,
-   "kurs_nok": 2365.13
+   "uke_pct": -0.82,
+   "mnd_pct": 16.17,
+   "rsi": 75.5,
+   "tid": 1793854800,
+   "kurs_nok": 2381.4
   },
   {
    "id": "GOOGL",
@@ -247,22 +222,22 @@
    "tema": "KI / Fusjon",
    "eier": false,
    "merknad": "Gemini, Proxima-investor",
-   "kurs": 288.93,
+   "kurs": 294.43,
    "valuta": "USD",
-   "dogn_pct": 3.18,
+   "dogn_pct": 1.9,
    "signaler": [
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 20.9 – oversolgt-sone"
+     "tekst": "RSI(14) 26.9 – oversolgt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": -11.07,
-   "mnd_pct": -16.9,
-   "rsi": 20.9,
-   "tid": 1793768400,
-   "kurs_nok": 2686.99
+   "uke_pct": 3.74,
+   "mnd_pct": -16.0,
+   "rsi": 26.9,
+   "tid": 1793854800,
+   "kurs_nok": 2737.02
   },
   {
    "id": "DJT",
@@ -272,37 +247,22 @@
    "tema": "Fusjon",
    "eier": false,
    "merknad": "TAE-fusjon (S-4 30.09)",
-   "kurs": 4.49,
+   "kurs": 4.525,
    "valuta": "USD",
-   "dogn_pct": -24.54,
+   "dogn_pct": 0.78,
    "signaler": [
-    {
-     "kode": "DOGN",
-     "nivaa": "viktig",
-     "tekst": "Døgnbevegelse -24.5 % (ned), terskel 5 %"
-    },
-    {
-     "kode": "VOLUM",
-     "nivaa": "obs",
-     "tekst": "Volum 5.2× 30-dagers snitt"
-    },
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 17.9 – oversolgt-sone"
-    },
-    {
-     "kode": "BUNN",
-     "nivaa": "info",
-     "tekst": "Ny 30-dagers bunn"
+     "tekst": "RSI(14) 20.2 – oversolgt-sone"
     }
    ],
    "feil": null,
-   "uke_pct": -24.79,
-   "mnd_pct": -48.09,
-   "rsi": 17.9,
-   "tid": 1793768400,
-   "kurs_nok": 41.76
+   "uke_pct": -21.71,
+   "mnd_pct": -44.95,
+   "rsi": 20.2,
+   "tid": 1793854800,
+   "kurs_nok": 42.06
   },
   {
    "id": "RWE.DE",
@@ -312,22 +272,16 @@
    "tema": "Fusjon",
    "eier": false,
    "merknad": "Proxima-investor",
-   "kurs": 57.3,
+   "kurs": 58.4,
    "valuta": "EUR",
-   "dogn_pct": 1.38,
-   "signaler": [
-    {
-     "kode": "VOLUM",
-     "nivaa": "obs",
-     "tekst": "Volum 3.6× 30-dagers snitt"
-    }
-   ],
+   "dogn_pct": 1.92,
+   "signaler": [],
    "feil": null,
-   "uke_pct": -0.45,
-   "mnd_pct": -2.22,
-   "rsi": 42.0,
-   "tid": 1793660400,
-   "kurs_nok": 600.05
+   "uke_pct": -0.48,
+   "mnd_pct": 0.86,
+   "rsi": 47.5,
+   "tid": 1793833200,
+   "kurs_nok": 608.78
   },
   {
    "id": "5803.T",
@@ -337,19 +291,19 @@
    "tema": "Supraledning",
    "eier": false,
    "merknad": "HTS-tape til CFS",
-   "kurs": 3231.0,
+   "kurs": 3260.0,
    "valuta": "JPY",
-   "dogn_pct": -12.2,
+   "dogn_pct": -11.41,
    "signaler": [
     {
      "kode": "DOGN",
      "nivaa": "viktig",
-     "tekst": "Døgnbevegelse -12.2 % (ned), terskel 5 %"
+     "tekst": "Døgnbevegelse -11.4 % (ned), terskel 5 %"
     },
     {
      "kode": "RSI",
      "nivaa": "obs",
-     "tekst": "RSI(14) 18.1 – oversolgt-sone"
+     "tekst": "RSI(14) 18.4 – oversolgt-sone"
     },
     {
      "kode": "BUNN",
@@ -358,11 +312,11 @@
     }
    ],
    "feil": null,
-   "uke_pct": -21.41,
-   "mnd_pct": -41.95,
-   "rsi": 18.1,
+   "uke_pct": -20.7,
+   "mnd_pct": -41.43,
+   "rsi": 18.4,
    "tid": 1793804400,
-   "kurs_nok": 190.31
+   "kurs_nok": 191.04
   },
   {
    "id": "3696.HK",
@@ -372,16 +326,16 @@
    "tema": "KI-medisin",
    "eier": false,
    "merknad": "Rentosertib fase III",
-   "kurs": 39.06,
+   "kurs": 39.38,
    "valuta": "HKD",
-   "dogn_pct": -0.81,
+   "dogn_pct": 0.0,
    "signaler": [],
    "feil": null,
-   "uke_pct": 6.66,
-   "mnd_pct": -34.13,
-   "rsi": 55.1,
+   "uke_pct": 7.54,
+   "mnd_pct": -33.59,
+   "rsi": 56.4,
    "tid": 1793808000,
-   "kurs_nok": 46.11
+   "kurs_nok": 46.47
   },
   {
    "id": "EQNR.OL",
@@ -391,16 +345,16 @@
    "tema": "Oslo Børs",
    "eier": false,
    "merknad": "",
-   "kurs": 406.6,
+   "kurs": 402.2,
    "valuta": "NOK",
-   "dogn_pct": -4.98,
+   "dogn_pct": -1.08,
    "signaler": [],
    "feil": null,
-   "uke_pct": -7.7,
-   "mnd_pct": 0.64,
-   "rsi": 45.5,
-   "tid": 1793660400,
-   "kurs_nok": 406.6
+   "uke_pct": -7.63,
+   "mnd_pct": -0.32,
+   "rsi": 37.8,
+   "tid": 1793833200,
+   "kurs_nok": 402.2
   },
   {
    "id": "DNB.OL",
@@ -410,16 +364,27 @@
    "tema": "Oslo Børs",
    "eier": false,
    "merknad": "",
-   "kurs": 323.4,
+   "kurs": 328.0,
    "valuta": "NOK",
-   "dogn_pct": 1.32,
-   "signaler": [],
+   "dogn_pct": 1.42,
+   "signaler": [
+    {
+     "kode": "RSI",
+     "nivaa": "obs",
+     "tekst": "RSI(14) 74.8 – overkjøpt-sone"
+    },
+    {
+     "kode": "TOPP",
+     "nivaa": "info",
+     "tekst": "Ny 30-dagers topp"
+    }
+   ],
    "feil": null,
-   "uke_pct": -0.46,
-   "mnd_pct": 4.76,
-   "rsi": 63.0,
-   "tid": 1793660400,
-   "kurs_nok": 323.4
+   "uke_pct": 2.44,
+   "mnd_pct": 6.67,
+   "rsi": 74.8,
+   "tid": 1793833200,
+   "kurs_nok": 328.0
   },
   {
    "id": "NEL.OL",
@@ -429,27 +394,16 @@
    "tema": "Oslo Børs",
    "eier": false,
    "merknad": "",
-   "kurs": 1.952,
+   "kurs": 1.956,
    "valuta": "NOK",
-   "dogn_pct": 1.14,
-   "signaler": [
-    {
-     "kode": "RSI",
-     "nivaa": "obs",
-     "tekst": "RSI(14) 24.6 – oversolgt-sone"
-    },
-    {
-     "kode": "BUNN",
-     "nivaa": "info",
-     "tekst": "Ny 30-dagers bunn"
-    }
-   ],
+   "dogn_pct": 0.2,
+   "signaler": [],
    "feil": null,
-   "uke_pct": -0.91,
-   "mnd_pct": -3.84,
-   "rsi": 24.6,
-   "tid": 1793660400,
-   "kurs_nok": 1.95
+   "uke_pct": -0.2,
+   "mnd_pct": -1.81,
+   "rsi": 34.7,
+   "tid": 1793833200,
+   "kurs_nok": 1.96
   },
   {
    "id": "0P0001IT1G.IR",
