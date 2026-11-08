@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-08T19:30:06+00:00",
+ "generert": "2026-11-08T23:05:09+00:00",
  "regler": {
   "dogn_pct": 5,
   "volum_x_snitt30": 2.0,
@@ -11,10 +11,10 @@
   "maks_varsler_per_time": 1
  },
  "valutakurser": {
-  "USD": 9.4537,
-  "EUR": 10.5293,
+  "USD": 9.4616,
+  "EUR": 10.5436,
   "JPY": 0.0597,
-  "HKD": 1.2011,
+  "HKD": 1.2023,
   "NOK": 1.0
  },
  "instrumenter": [
@@ -26,13 +26,18 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "XRPL: mål om kvanteresistens 2028",
-   "kurs": 1.15,
-   "kurs_nok": 10.92,
+   "kurs": 1.12,
+   "kurs_nok": 10.54,
    "valuta": "USD",
-   "dogn_pct": -0.61,
-   "volum24": 874750420.548208,
-   "tid": 1794166195,
+   "dogn_pct": -3.78,
+   "volum24": 1349247959.426507,
+   "tid": 1794179097,
    "signaler": [
+    {
+     "kode": "RSI",
+     "nivaa": "obs",
+     "tekst": "RSI(14) 27.6 – oversolgt-sone"
+    },
     {
      "kode": "BUNN",
      "nivaa": "info",
@@ -40,9 +45,9 @@
     }
    ],
    "feil": null,
-   "uke_pct": -7.97,
-   "mnd_pct": -17.55,
-   "rsi": 30.6
+   "uke_pct": -10.37,
+   "mnd_pct": -19.7,
+   "rsi": 27.6
   },
   {
    "id": "stellar",
@@ -52,12 +57,12 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Ed25519, ingen PQ-plan publisert",
-   "kurs": 0.15018,
-   "kurs_nok": 1.42,
+   "kurs": 0.146597,
+   "kurs_nok": 1.39,
    "valuta": "USD",
-   "dogn_pct": -0.5,
-   "volum24": 75903672.42541662,
-   "tid": 1794166195,
+   "dogn_pct": -2.94,
+   "volum24": 100234229.56639649,
+   "tid": 1794179097,
    "signaler": [
     {
      "kode": "BUNN",
@@ -66,9 +71,9 @@
     }
    ],
    "feil": null,
-   "uke_pct": -10.74,
-   "mnd_pct": -22.82,
-   "rsi": 34.0
+   "uke_pct": -12.87,
+   "mnd_pct": -24.66,
+   "rsi": 31.9
   },
   {
    "id": "algorand",
@@ -78,17 +83,23 @@
    "tema": "Kvantesikker krypto",
    "eier": true,
    "merknad": "Falcon i state proofs, ikke i lommebøker",
-   "kurs": 0.093544,
-   "kurs_nok": 0.88468,
+   "kurs": 0.090937,
+   "kurs_nok": 0.859349,
    "valuta": "USD",
-   "dogn_pct": -0.97,
-   "volum24": 30421597.71633824,
-   "tid": 1794166195,
-   "signaler": [],
+   "dogn_pct": -4.58,
+   "volum24": 32784292.3082508,
+   "tid": 1794179097,
+   "signaler": [
+    {
+     "kode": "BUNN",
+     "nivaa": "info",
+     "tekst": "Ny 30-dagers bunn"
+    }
+   ],
    "feil": null,
-   "uke_pct": -0.4,
-   "mnd_pct": -18.35,
-   "rsi": 36.2
+   "uke_pct": -3.18,
+   "mnd_pct": -20.63,
+   "rsi": 33.9
   },
   {
    "id": "bitcoin",
@@ -98,17 +109,23 @@
    "tema": "Referanse",
    "eier": false,
    "merknad": "Markedsreferanse, BIP-360",
-   "kurs": 75804,
-   "kurs_nok": 716906,
+   "kurs": 74700,
+   "kurs_nok": 705910,
    "valuta": "USD",
-   "dogn_pct": 0.1,
-   "volum24": 10619585101.631258,
-   "tid": 1794166195,
-   "signaler": [],
+   "dogn_pct": -1.29,
+   "volum24": 14994085092.10014,
+   "tid": 1794179097,
+   "signaler": [
+    {
+     "kode": "BUNN",
+     "nivaa": "info",
+     "tekst": "Ny 30-dagers bunn"
+    }
+   ],
    "feil": null,
-   "uke_pct": -3.18,
-   "mnd_pct": -8.19,
-   "rsi": 37.0
+   "uke_pct": -4.59,
+   "mnd_pct": -9.53,
+   "rsi": 34.6
   },
   {
    "id": "quantum-resistant-ledger",
@@ -118,12 +135,12 @@
    "tema": "Kvantesikker krypto",
    "eier": false,
    "merknad": "Hash-basert XMSS; ikke på norsk-tilgjengelig regulert børs",
-   "kurs": 0.965054,
-   "kurs_nok": 9.13,
+   "kurs": 0.950832,
+   "kurs_nok": 8.99,
    "valuta": "USD",
-   "dogn_pct": 0.65,
-   "volum24": 38118.49086393846,
-   "tid": 1794166195,
+   "dogn_pct": -1.51,
+   "volum24": 37652.631084093904,
+   "tid": 1794179097,
    "signaler": [],
    "feil": "historikk: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/quantum-resistant-ledger/market_chart?vs_currency=usd&days=365&interval=daily"
   },
@@ -150,7 +167,7 @@
    "mnd_pct": -22.54,
    "rsi": 36.9,
    "tid": 1793941200,
-   "kurs_nok": 7318.2
+   "kurs_nok": 7324.32
   },
   {
    "id": "OKLO",
@@ -180,7 +197,7 @@
    "mnd_pct": -31.88,
    "rsi": 38.6,
    "tid": 1793941200,
-   "kurs_nok": 222.63
+   "kurs_nok": 222.82
   },
   {
    "id": "IONQ",
@@ -205,7 +222,7 @@
    "mnd_pct": -17.31,
    "rsi": 54.2,
    "tid": 1793941200,
-   "kurs_nok": 308.38
+   "kurs_nok": 308.64
   },
   {
    "id": "IBM",
@@ -224,7 +241,7 @@
    "mnd_pct": 8.12,
    "rsi": 58.6,
    "tid": 1793941200,
-   "kurs_nok": 2316.16
+   "kurs_nok": 2318.09
   },
   {
    "id": "GOOGL",
@@ -249,7 +266,7 @@
    "mnd_pct": -18.23,
    "rsi": 20.3,
    "tid": 1793941200,
-   "kurs_nok": 2692.22
+   "kurs_nok": 2694.47
   },
   {
    "id": "DJT",
@@ -279,7 +296,7 @@
    "mnd_pct": -51.34,
    "rsi": 20.0,
    "tid": 1793941200,
-   "kurs_nok": 37.72
+   "kurs_nok": 37.75
   },
   {
    "id": "RWE.DE",
@@ -298,7 +315,7 @@
    "mnd_pct": 0.7,
    "rsi": 52.1,
    "tid": 1793919600,
-   "kurs_nok": 606.91
+   "kurs_nok": 607.73
   },
   {
    "id": "5803.T",
@@ -352,7 +369,7 @@
    "mnd_pct": -29.32,
    "rsi": 44.2,
    "tid": 1793894400,
-   "kurs_nok": 44.99
+   "kurs_nok": 45.04
   },
   {
    "id": "EQNR.OL",
